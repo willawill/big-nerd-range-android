@@ -24,7 +24,7 @@ public class QuizActivity extends ActionBarActivity {
 		@Override
 		public void onClick(View v) {
 		Toast.makeText(QuizActivity.this, R.string.incorrect_toast, Toast.LENGTH_SHORT).show();
-		}
+			}
 		});
 		}
 	@Override
