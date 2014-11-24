@@ -5,10 +5,9 @@
 	<string name="false_button">False</string>
 	<string name="question_china">Is China the oldest country in the world?</string>
 	<string name="question_america">Is America the oldest country in the world?</string>
-
 	<string name="correct_toast">Correct!</string>
 	<string name="incorrect_toast">Incorrect!</string>
 	<string name="next_button">Next</string>
-	
+	<string name="prev_button">Previous</string>
 <string name="action_settings">Settings</string>
 </resources>
