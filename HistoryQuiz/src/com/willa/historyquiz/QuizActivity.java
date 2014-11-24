@@ -2,6 +2,7 @@ package com.willa.historyquiz;
 
 import android.os.Bundle;
 import android.support.v7.app.ActionBarActivity;
+import android.util.Log;
 import android.view.Menu;
 import android.view.View;
 import android.widget.Button;
@@ -13,6 +14,7 @@ public class QuizActivity extends ActionBarActivity {
 	private Button mFalseButton;
 	private Button mNextButton;
 	private Button mPrevButton;
+	private final String TAG = "QuizActivity";
 	
 	private TextView mQuestionView;
 	private TrueFalse[] mQuestionBank = new TrueFalse[] {
@@ -23,6 +25,8 @@ public class QuizActivity extends ActionBarActivity {
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
+		Log.d(TAG, "onCreate() called");
+
 		setContentView(R.layout.activity_quiz);
 		mTrueButton = (Button) findViewById(R.id.true_button);
 		mFalseButton = (Button) findViewById(R.id.false_button);
