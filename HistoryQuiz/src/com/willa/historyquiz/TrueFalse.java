@@ -24,6 +24,4 @@ public class TrueFalse {
 	public void setTrueQuestion(boolean trueQuestion) {
 		mTrueQuestion = trueQuestion;
 	}
-	
-
 }
